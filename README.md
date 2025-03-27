@@ -20,7 +20,6 @@
 
     ИИ-интеграция: Используйте OpenAI API для сложных запросов:
     python
-    Copy
 
     import openai
     openai.api_key = "ВАШ_API_КЛЮЧ"
@@ -31,5 +30,7 @@
 
     Запустите скрипт через терминал:
     bash
+
+    pip install speechrecognition pyttsx3 pywin32 pycaw python-dotenv openai pyaudio
 
     python assistant.py
